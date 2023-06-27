@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Serif', serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(https://images.hdqwalls.com/download/nature-background-1920x1080.jpg) no-repeat;
+    background-size: 100vw 100vh;
+    overflow: hidden;
+    margin: 0;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+    height: 60px;
+    top: 0;
+}
+  
+  ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+  
+  li {
+    text-align: center;
+    padding: 14px 12px;
+}
+  
+  a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+}
+
+.about {
+  width: 100%;
+  padding: 78px 0px;
+}
+
+.about img {
+  height: auto;
+  width: 320px;
+}
+
+.about-text {
+  width: 550px;
+}
+
+.main {
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.fade {
+	opacity: 0;
+	animation: fadeIn 1s ease-in both;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translate3d(0, -20%, 0);
+	}
+	to {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+}
+
+.about-text h1 {
+  color: 80px;
+  font-size: 50px;
+  text-transform: capitalize;
+  margin-bottom: 50px;
+  color: aquamarine;
+}
+
+.about-text h5 {
+  color: white;
+  font-size: 25px;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+  letter-spacing: 2px;
+}
+
+span {
+  color: aqua;
+}
+
+.about-text p {
+  color: lightskyblue;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 45px;
+}
+
+button {
+  background: #0096FF;
+  color: whitesmoke;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 13px 30px;
+  border-radius: 30px;
+  transition: 0.4s;
+}
+
+button:hover {
+  background: transparent;
+  border: 2px solid #0096FF;
+  cursor: pointer;
+}

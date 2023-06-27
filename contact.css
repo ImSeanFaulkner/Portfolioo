@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Serif', serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(https://images.hdqwalls.com/download/nature-background-1920x1080.jpg) no-repeat;
+    background-size: 100vw 100vh;
+    overflow: hidden;
+    margin: 0;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+    height: 60px;
+    top: 0;
+}
+  
+  ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+  
+  li {
+    text-align: center;
+    padding: 14px 12px;
+}
+  
+  a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    margin: 35px 0 20px 0 !important;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 610px;
+    height:700px;
+    border-radius: 50px;
+    background: rgba(229, 228, 226, 0.3);
+    margin-top: 70px;
+    padding: 50px;
+}
+
+.form-group {
+    margin: 1.5em;
+}
+
+.form-label {
+    display: block;
+    font-weight: bold;
+}
+
+.form-control {
+    width: 400px;
+    height: 40px;
+    margin: 15px;
+    border-style: none none solid none;
+    background: transparent;
+}
+
+.form-control::placeholder {
+    color: #e0e0e0;
+}
+
+.form-control:focus, .comment:focus {
+    box-shadow: none;
+    border-color: aqua;
+    outline: none;
+}
+
+.comment {
+    width: 400px;
+    height: 200px;
+    background: transparent;
+    border-style: none none solid none;
+}
+
+button {
+    border-radius: 10px;
+    padding: 7px;
+    font-family: 'Noto Serif', serif;
+    font-weight: bold;
+}
+
+button:hover {
+    cursor: pointer;
+    border: 3px solid aqua;
+}
